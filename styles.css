@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+body{
+    font-family: "kalam";
+    margin: 0%;
+    padding: 0%;
+    border: 0em;
+    bottom: 0%;
+    color: white;
+}
+
+header{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 38, 35);
+    padding-top: 25px;
+    margin-bottom: 10px;
+    
+}
+
+
+#txt-area,#btn,#output,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txt-area textarea{
+    font-family: "kalam";
+    font-size: 20px;
+        width: 500px;
+        height: 300px;
+
+}
+#output textarea{
+    font-family: "kalam";
+    font-size:15px;
+    width :500px;
+    height: 100px;
+}
+body p{
+    font-size: 20px;
+    
+}
+#btn button{
+    font-family: "kalam";
+    font-size: 15px;
+    margin-top: 2em;
+    background-color: rgb(43, 42, 40);
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+}
+
+footer{
+    border-top:100rem;
+    position:fixed;
+    width: 100%;
+    
+    font-size: 15px;
+    background-color: rgb(54, 53, 50);
+    bottom: 0%;
+}
+
+
+
+
